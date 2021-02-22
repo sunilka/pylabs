@@ -22,8 +22,11 @@ Questions are being posted here, solutions can be found in the folers.
 - Find the factorial of the number 
 - Create a multiplication table 
 - Create a fibonacci numbers 
-- Create factorial, prime, fibonacci numbers using recursive functions
+- Create recursive functions 
+  - Factorial
+  - Fibonacci
+  - Prime
 - Whats the difference between iterator and generator ?
 - whats the difference between range and xrange ?
-- Explain *args and **kwargs ?
+- Explain *args and \**kwargs ?
 - Explain which objects types are mutable and immutable ?
