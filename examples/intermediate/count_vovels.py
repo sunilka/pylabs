@@ -26,13 +26,12 @@ print('e:',e)
 print('i:',i)
 print('o:',o)
 print('u:',u)
-
-print("*"*40)
+print("\n")
+print("*"*30)
 
 # Second Method of counting vovels using dictionary
 print("Second Method using dictionary")
-print("*"*40)
-print("\n")
+print("*"*30)
 vovels='aeiou'
 
 if len(sys.argv) != 1: #find the length of arguments passed from command line.
@@ -46,3 +45,5 @@ for char in string:
     if char in vovels_count:
         vovels_count[char]+=1
 print(vovels_count)
+
+print("\n")
