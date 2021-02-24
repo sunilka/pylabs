@@ -1,11 +1,11 @@
 #!/usr/bin/python
 
-#  Program to Count the Number of Each Vowel
+#Program to Count the Number of Each Vowel
 import sys
 a=e=i=o=u=0
 
-if len(sys.argv) != 1: #find the length of arguments passed from command line. 
-  string=sys.argv[1] 
+if len(sys.argv) != 1: #find the length of arguments passed from command line.
+  string=sys.argv[1]
 else:
   string="elephant" # No arguments passed, choose this as default string
 
@@ -27,3 +27,22 @@ print('i:',i)
 print('o:',o)
 print('u:',u)
 
+print("*"*40)
+
+# Second Method of counting vovels using dictionary
+print("Second Method using dictionary")
+print("*"*40)
+print("\n")
+vovels='aeiou'
+
+if len(sys.argv) != 1: #find the length of arguments passed from command line.
+  string=sys.argv[1]
+else:
+  string="elephant" # No arguments passed, choose this as default string
+
+vovels_count = {}.fromkeys(vovels,0)
+
+for char in string:
+    if char in vovels_count:
+        vovels_count[char]+=1
+print(vovels_count)
